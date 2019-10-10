@@ -1,0 +1,20 @@
+{
+	"name": "hapi-rest-bootstrap",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"debug": "nodemon --inspect src/index.js",
+		"start": "node src/index.js",
+		"test": "jest --passWithNoTests",
+		"test:watch": "jest --passWithNoTests --watch",
+		"watch": "nodemon --exec \"yarn start\""
+	},
+	"dependencies": {
+		"@hapi/hapi": "^18.4.0",
+		"dotenv": "^8.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.3"
+	}
+}
