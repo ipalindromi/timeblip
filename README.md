@@ -11,6 +11,13 @@ This project is my personal default for bootstrapping a REST service using HAPI.
 -   Provides my most-used defaults of handling:
     -   Data persistance
     -   Authentication
+-   Supports dotenv files
+
+### Postgres Branch
+
+Set a `DATABASE_URL` environment variable equal to the connection string you want to use.
+
+`this.pool` variable will be available in all routes, methods, and plugins.
 
 ## Assumptions
 
