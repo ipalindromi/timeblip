@@ -11,7 +11,7 @@
 		"watch": "nodemon --exec \"yarn start\""
 	},
 	"dependencies": {
-		"@hapi/hapi": "^18.4.0",
+		"@hapi/hapi": "^19.1.1",
 		"dotenv": "^8.1.0",
 		"pg": "^7.12.1"
 	},
